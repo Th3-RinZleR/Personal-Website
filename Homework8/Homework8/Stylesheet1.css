@@ -1,0 +1,55 @@
+﻿body {
+    background-color: lightcoral;
+    color: white;
+}
+
+span {
+    text-decoration: underline;
+    color: white;
+    box-shadow: black -10px 15px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 300%;
+}
+
+
+img {
+    margin: 25px;
+}
+
+    img:hover {
+        border-radius: 65%;
+        transform: scale(1.5);
+    }
+
+#Information {
+    background-color: gray;
+    width: 250px;
+    border: 5px solid black;
+    padding: 15px;
+    margin: 25px;
+    box-shadow: 10px 4px 8px 0 rgba(150,50,100,0.8);
+    text-align:center;
+}
+
+    #Information:hover {
+        transition: transform 2.5s ease-in-out;
+        transform: rotate(1080deg);
+    }
+
+#Skill {
+    background-color: gray;
+    width: 250px;
+    border: 5px solid black;
+    padding: 15px;
+    margin: 25px;
+    box-shadow: 10px 4px 8px 0 rgba(150,50,100,0.8);
+    text-align: center;
+}
+
+    #Skill:hover {
+        transition: transform 2.5s ease-in-out;
+        transform: rotate(1080deg);
+    }
